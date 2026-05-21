@@ -234,7 +234,7 @@ function initExam() {
   // 🔥 VOICE: EXAM STARTED
   if (!examStartedVoiceTriggered) {
     setTimeout(() => {
-      speakMessage("Exam started. Good luck! You have 25 minutes to complete your exam.");
+      speakMessage("Exam started. Good luck! You have 20 minutes to complete your exam.");
       examStartedVoiceTriggered = true;
     }, 1000);
   }
