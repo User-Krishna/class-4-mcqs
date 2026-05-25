@@ -1125,7 +1125,7 @@ function showResult() {
     }
   });
 
-  html += `<h3>Score: ${score}/30</h3>`;
+  html += `<h3>Score: ${score}/25</h3>`;
 
   document.getElementById("result").innerHTML = html;
 
