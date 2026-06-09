@@ -1014,7 +1014,7 @@ function submitExam() {
 }
 
 // ---------------- RESULT TIMER ----------------
-let count = 300; // 10 minutes = 600 seconds
+let count = 120; // 10 minutes = 600 seconds
 let timerInterval = null;
 
 function startResultTimer() {
@@ -1046,7 +1046,7 @@ function startResultTimer() {
     document.getElementById("count").innerText = formattedTime;
 
     // Update progress bar (based on 600 seconds total)
-    const progressPercentage = (count / 600) * 100;
+    const progressPercentage = (count / 120) * 100;
     if (progressFill) {
       progressFill.style.width = `${progressPercentage}%`;
 
@@ -1125,7 +1125,7 @@ function showResult() {
     }
   });
 
-  html += `<h3>Score: ${score}/25</h3>`;
+  html += `<h3>Score: ${score}/12.5</h3>`;
 
   document.getElementById("result").innerHTML = html;
 
