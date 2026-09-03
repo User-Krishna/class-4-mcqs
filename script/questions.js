@@ -43,7 +43,7 @@ const allQuestions = [
       "Option C",
       "Option D"
     ],
-    correct: "Option B",
+    correct: "Option A",
     image: "images/L1-4.png"
   },
 
